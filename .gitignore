@@ -1,0 +1,40 @@
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+env/
+*.env
+*.venv
+
+# Archivos de configuración local
+*.log
+*.sqlite3
+*.db
+*.pot
+
+# Archivos de migración innecesarios
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos de compilación y dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos estáticos y de caché de Django
+staticfiles/
+media/
+*.sass-cache
+
+# Archivos de despliegue
+*.bak
+.DS_Store
