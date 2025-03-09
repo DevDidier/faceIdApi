@@ -1,0 +1,5 @@
+pip freeze > requirements.txt :  para crear el requirements.txt
+
+python manage.py runserver : correr el servidor
+
+pip install -r requirements.txt : actualizar dependencias
